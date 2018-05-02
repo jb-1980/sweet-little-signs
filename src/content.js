@@ -23,6 +23,12 @@ export default () => (
     <section id="contact">
       <h2 style={{ textAlign: "center" }}>Contact Us</h2>
       <hr />
+      <div>
+        <i className="material-icons">phone</i> 623.396.6397
+      </div>
+      <div>
+        <i className="material-icons">mail</i> sweetlittlesigns@gmail.com
+      </div>
     </section>
   </div>
 )
