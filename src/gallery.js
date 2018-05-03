@@ -5,7 +5,7 @@ export default () => (
   <section id="gallery">
     <h1 style={{ textAlign: "center" }}>Gallery</h1>
     <hr />
-    <CloudinaryContext cloudName="jgilgen">
+    <CloudinaryContext cloudName="jgilgen" secure={true}>
       <div
         style={{
           display: "flex",
@@ -52,6 +52,17 @@ export default () => (
             />
           </Image>
           <div style={{ textAlign: "center" }}>HOME</div>
+        </div>
+        <div>
+          <Image publicId="IMG_2603_gj1uu8.jpg">
+            <Transformation
+              quality="auto:eco"
+              height="200"
+              width="200"
+              crop="fit"
+            />
+          </Image>
+          <div style={{ textAlign: "center" }}>VARIOUS</div>
         </div>
       </div>
     </CloudinaryContext>
