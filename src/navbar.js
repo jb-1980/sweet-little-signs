@@ -6,7 +6,7 @@ const NavBar = () => (
   <div style={{ textAlign: "center" }}>
     <img
       style={{ width: 200, height: 200, display: "inline-block" }}
-      src="http://res.cloudinary.com/jgilgen/image/upload/q_auto:eco/v1525204572/sweet_little_signs_logo_e0oaw1.png"
+      src="https://res.cloudinary.com/jgilgen/image/upload/q_auto:eco/v1525204572/sweet_little_signs_logo_e0oaw1.png"
     />
     <div className={css(styles.navbar)}>
       <Link
