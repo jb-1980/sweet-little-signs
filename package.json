@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "dependencies": {
     "cloudinary-react": "1.0.6",
-    "emotion": "9.2.12",,
+    "emotion": "9.2.12",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-scripts": "2.1.1",
