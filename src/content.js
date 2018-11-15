@@ -1,34 +1,22 @@
 import React from "react"
-import { StyleSheet, css } from "aphrodite"
+import { css } from "emotion"
 import Gallery from "./gallery"
 
-const styles = StyleSheet.create({
-  container: {
-    width: "80%",
-    margin: "auto",
-  },
-})
-
 export default () => (
-  <div className={css(styles.container)}>
+  <div>
     <section id="home">
-      <h1 style={{ textAlign: "center" }}>Homemade Wood Signs</h1>
+      <h1 style={{ textAlign: "center", fontFamily: "Courgette" }}>
+        Homemade Wood Signs
+      </h1>
       <hr />
-      <p>
-        All our signs are made to order with quality lumber, paints, and stains,
-        and big lump of love.
+      <p style={{ fontFamily: "Coming Soon" }}>
+        At Sweet Little Signs we are dedicated to making a customized just for
+        you. Feel free to browse our gallery for ideas, and contact us to tell
+        us exactly what kind of sign you want so we can make it for you. All our
+        signs are made to order with quality lumber, paints, and stains, and a
+        big lump of love.
       </p>
     </section>
     <Gallery />
-    <section id="contact">
-      <h2 style={{ textAlign: "center" }}>Contact Us</h2>
-      <hr />
-      <div>
-        <i className="material-icons">phone</i> 623.396.6397
-      </div>
-      <div>
-        <i className="material-icons">mail</i> sweetlittlesigns@gmail.com
-      </div>
-    </section>
   </div>
 )
