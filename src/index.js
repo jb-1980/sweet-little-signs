@@ -4,7 +4,6 @@ import Navbar from "./navbar"
 import Content from "./content"
 import { Footer } from "./footer"
 import "./main.css"
-import "font-awesome/css/font-awesome.min.css"
 
 const styles = {
   width: "100%",
